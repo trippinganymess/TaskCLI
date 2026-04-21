@@ -6,7 +6,7 @@ A robust, modular Command Line Interface (CLI) tool designed to manage tasks eff
 
 The project is organized into several modules to ensure a clean separation of concerns and avoid circular dependencies:
 
-.
+```
 ├── config.py       # Centralized configuration (Database path)
 ├── exceptions.py   # Custom error handling and validation exceptions
 ├── Input.py        # Data validation and model definitions (Input class)
@@ -14,7 +14,7 @@ The project is organized into several modules to ensure a clean separation of co
 ├── controller.py   # Command logic (Commands class)
 └── run.py          # Entry point and main application loop
 
-
+```
 ## Features
 
 - CRUD Operations: Easily add, update, delete, and list tasks.
@@ -43,10 +43,6 @@ Run the application from your terminal:
 Available Commands
 
 The CLI uses a colon-separated format (command:arg1:arg2...):
-
-Command
-
-Format
 
 Description
 
