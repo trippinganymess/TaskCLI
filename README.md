@@ -83,3 +83,6 @@ Note: Valid statuses are: todo, in-progress, done.
 Read-Modify-Write Cycle
 
 This project utilizes a Read-Modify-Write cycle to manage state in a local file. Every time a task is added, updated, or deleted, the application loads the entire JSON file into memory, performs the operation on the list of dictionaries, and then writes the entire structure back to disk.
+
+
+project from : https://roadmap.sh/projects/task-tracker
